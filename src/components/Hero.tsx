@@ -4,15 +4,36 @@ const Hero = () => {
       id="home"
       className="relative min-h-screen flex items-center justify-center overflow-hidden"
     >
-      {/* Background Image for desktop and mobile */}
+      {/* Background Image for desktop and mobile           bg-[url('https://res.cloudinary.com/dwiq4s5ut/image/upload/v1750877652/mobile_ieyt99.png')]
+*/}
       <div
         className="absolute inset-0 w-full h-full bg-cover bg-center bg-no-repeat
-          bg-[url('https://res.cloudinary.com/dwiq4s5ut/image/upload/v1750876090/mobile_image_i75px9.png')]
-          sm:bg-[url('https://res.cloudinary.com/dwiq4s5ut/image/upload/v1750756491/ChatGPT_Image_Jun_24_2025_02_40_34_PM_xteohu.png')]"
+          bg-[url('https://res.cloudinary.com/dwiq4s5ut/image/upload/v1750880103/iamge_5_ggyzmb.png')]
+          sm:bg-[url('https://res.cloudinary.com/dwiq4s5ut/image/upload/v1750877638/desktop-image1_kqjdzw.png')]"
       />
 
-      {/* Optional Content */}
-      {/* <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto"> ... </div> */}
+
+      {/* <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
+        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
+          IT'S ICE CREAM O' CLOCK
+        </h1>
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold text-white mb-8">
+          Embrace The Essence Of Taste
+        </h2>
+        <p className="text-lg sm:text-xl text-white mb-8 leading-relaxed max-w-3xl mx-auto">
+          At Havins Ice Cream, we take pride in crafting the world's most delicious ice cream using advanced techniques,
+          wholesome sugars, and a planet-friendly approach that defines who we are. 🌍🍦
+        </p>
+        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+          <button className="bg-[#ffa800] hover:bg-[#ff9500] text-white px-8 py-4 rounded-full text-lg font-semibold transition-colors duration-300 shadow-lg">
+            Order Now
+          </button>
+          <button className="border-2 border-white text-white hover:bg-white hover:text-[#31aaa6] px-8 py-4 rounded-full text-lg font-semibold transition-colors duration-300">
+            Learn More
+          </button>
+        </div>
+      </div> */}
+
 
       {/* Scroll Indicator */}
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-10">
